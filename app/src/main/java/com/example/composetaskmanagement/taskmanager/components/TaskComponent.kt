@@ -78,7 +78,7 @@ fun TaskComponent(task: Task) {
                     )
 
                     Text(
-                        text = task.body?:"",
+                        text = task.body ?: "",
                         fontFamily = FontFamily(Font(R.font.nunito_bold)),
                         modifier = Modifier.padding(start = 12.dp),
                         color = Color.Gray

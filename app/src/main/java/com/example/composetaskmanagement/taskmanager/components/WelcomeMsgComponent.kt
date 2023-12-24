@@ -28,5 +28,5 @@ fun WelcomeMsgComponent() {
             color = LightGray
         )
     }
-    
+
 }
